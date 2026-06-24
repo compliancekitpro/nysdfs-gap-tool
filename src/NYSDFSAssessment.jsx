@@ -179,7 +179,7 @@ function ClassADeterminer() {
 
   return (
     <div style={{ background: C.surface, border: `1px solid ${C.border}`, borderRadius: 16, padding: 20, boxShadow: "0 1px 3px rgba(0,0,0,0.06)" }}>
-      <div style={{ fontSize: 14, fontWeight: 700, color: C.text, marginBottom: 4 }}>\ud83c\udfe6 Class A Determination</div>
+      <div style={{ fontSize: 14, fontWeight: 700, color: C.text, marginBottom: 4 }}>Class A Determination</div>
       <div style={{ fontSize: 11, color: C.textMid, marginBottom: 14, fontFamily: "Helvetica, sans-serif" }}>Answer 3 questions to check your status</div>
 
       <div style={{ marginBottom: 12 }}>
@@ -327,7 +327,7 @@ export default function NYSDFSAssessment() {
               background: "#fff", color: C.darkNavy, border: "none", borderRadius: 8,
               padding: "10px 20px", fontSize: 13, fontWeight: 700, cursor: "pointer",
               fontFamily: "Helvetica, sans-serif", boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
-            }}>View Results \u2192</button>
+            }}>View Results</button>
           ) : (
             <button onClick={() => setView("assess")} style={{
               background: "transparent", color: "#BFD3EC", border: "1px solid #BFD3EC",
