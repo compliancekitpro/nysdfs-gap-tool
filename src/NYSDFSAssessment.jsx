@@ -451,19 +451,19 @@ export default function NYSDFSAssessment() {
                   borderRadius: 8, padding: "10px 20px", fontSize: 13,
                   cursor: activeCategory === 0 ? "not-allowed" : "pointer",
                   fontFamily: "Helvetica, sans-serif", fontWeight: 600,
-                }}>\u2190 Previous</button>
+                }}>Previous</button>
               {activeCategory < CATEGORIES.length - 1 ? (
                 <button onClick={() => switchCategory(activeCategory + 1)} style={{
                   background: C.darkNavy, color: "white", border: "none", borderRadius: 8,
                   padding: "10px 20px", fontSize: 13, fontWeight: 700, cursor: "pointer",
                   fontFamily: "Helvetica, sans-serif", boxShadow: "0 4px 12px rgba(11,30,61,0.3)",
-                }}>Next Section \u2192</button>
+                }}>Next Section</button>
               ) : (
                 <button onClick={() => setView("results")} style={{
                   background: C.green, color: "white", border: "none", borderRadius: 8,
                   padding: "10px 20px", fontSize: 13, fontWeight: 700, cursor: "pointer",
                   fontFamily: "Helvetica, sans-serif", boxShadow: "0 4px 12px rgba(6,95,70,0.3)",
-                }}>\u2713 Complete \u2014 View Results \u2192</button>
+                }}>Complete View Results</button>
               )}
             </div>
           </div>
