@@ -1,8 +1,8 @@
 import NYSDFSAssessment from './NYSDFSAssessment.jsx'
 
 // ── Replace with your actual Etsy listing URLs before deploying ──────────────
-const ETSY_FULL_KIT_URL = "https://www.etsy.com/shop/YOUR_SHOP_NAME"
-const ETSY_CLASSA_URL   = "https://www.etsy.com/shop/YOUR_SHOP_NAME"
+const ETSY_FULL_KIT_URL = "https://compliancekitpro.etsy.com"
+const ETSY_CLASSA_URL   = "https://compliancekitpro.etsy.com"
 
 function CTABanner() {
   return (
